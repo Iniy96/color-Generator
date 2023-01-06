@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.colorBox{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+.inputs{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    padding: 4em 0 2em;
+}
+input{
+    width: 80px;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    color: rgb(255, 255, 230);
+    border-radius: 10px;
+}
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+
+}
+#redValue{
+    background-color: red;
+}
+#greenValue{
+    background-color: green;
+}
+#blueValue{
+    background-color: blue;
+}
+button{
+    padding:0.5rem 1rem;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+h1{
+    padding-top: 1rem;
+}
